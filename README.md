@@ -14,7 +14,7 @@ Get-ExecutionPolicy
 Set-ExecutionPolicy RemoteSigned
 ```
 
-**Step 4:** Install Chocolatey package manager by running the following command in PowerShell:
+**Step 4:** Install Chocolatey package manager by running the following command in PowerShell from https://chocolatey.org/install:
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
